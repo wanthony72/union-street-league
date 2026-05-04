@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Union Street League Table</title>
+  <link rel="stylesheet" href="league.css">
+</head>
+<body class="league-standalone">
+  <main>
+    <section class="league-page" aria-label="Union Street league table">
+      <header class="league-header">
+        <div>
+          <p class="league-kicker">2026 player results</p>
+          <h1>Union Street League Table</h1>
+          <p class="league-subtitle">Ranked by points, then goal difference, goals for, and wins.</p>
+        </div>
+        <div class="league-summary" aria-label="League summary">
+          <div>
+            <span id="summary-matches">-</span>
+            <small>Matches</small>
+          </div>
+          <div>
+            <span id="summary-players">-</span>
+            <small>Players</small>
+          </div>
+          <div>
+            <span id="summary-latest">-</span>
+            <small>Latest result</small>
+          </div>
+        </div>
+      </header>
+
+      <div class="league-controls" aria-label="Table controls">
+        <label class="league-search">
+          <span>Player search</span>
+          <input id="player-search" type="search" placeholder="Search players">
+        </label>
+        <label class="league-filter">
+          <span>Minimum appearances</span>
+          <select id="appearance-filter">
+            <option value="0">All players</option>
+            <option value="3">3+</option>
+            <option value="5">5+</option>
+            <option value="10">10+</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="league-table-wrap">
+        <table class="league-table" id="league-table">
+          <caption>Player standings</caption>
+          <thead>
+            <tr>
+              <th scope="col" data-sort="rank">#</th>
+              <th scope="col" data-sort="player">Player</th>
+              <th scope="col" data-sort="played">P</th>
+              <th scope="col" data-sort="wins">W</th>
+              <th scope="col" data-sort="draws">D</th>
+              <th scope="col" data-sort="losses">L</th>
+              <th scope="col" data-sort="goalsFor">GF</th>
+              <th scope="col" data-sort="goalsAgainst">GA</th>
+              <th scope="col" data-sort="goalDifference">GD</th>
+              <th scope="col" data-sort="points">Pts</th>
+              <th scope="col" data-sort="pointsPerGame">PPG</th>
+              <th scope="col" data-sort="winRate">Win %</th>
+              <th scope="col" data-sort="captain">Captain</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <section class="league-detail" aria-label="Recent matches">
+        <h2>Recent results</h2>
+        <div id="match-list" class="match-list"></div>
+      </section>
+    </section>
+  </main>
+  <script src="league.js"></script>
+</body>
+</html>
