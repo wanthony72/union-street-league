@@ -1,6 +1,6 @@
 {
   "source": "2026 Union St Updated 20260428a.xlsx",
-  "updated": "2026-07-21",
+  "updated": "2026-07-28",
   "matches": [
     {
       "date": "2026-01-13",
@@ -651,6 +651,32 @@
         "Bobbins",
         "Clark",
         "Sugata"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "team1": "Whites",
+      "team2": "Colours",
+      "team1Score": 20,
+      "team2Score": 10,
+      "winner": "Team 1",
+      "captain1": "Bobbins",
+      "captain2": "Pete S",
+      "captain1PickedFirst": false,
+      "captain2PickedFirst": true,
+      "team1Players": [
+        "Andy M",
+        "Bobbins",
+        "Cai",
+        "Matt F",
+        "Paul T"
+      ],
+      "team2Players": [
+        "Alex P",
+        "Clark",
+        "Jon R",
+        "Paul H",
+        "Pete S"
       ]
     }
   ]
