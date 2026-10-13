@@ -1,6 +1,6 @@
 {
   "source": "Union Street 1830 (Results).xlsx",
-  "updated": "2026-09-22",
+  "updated": "2026-10-06",
   "matches": [
     {
       "date": "2026-01-13",
@@ -884,6 +884,58 @@
         "Finley",
         "Mike F",
         "Paul T",
+        "Tony W"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "team1": "Whites",
+      "team2": "Colours",
+      "team1Score": 16,
+      "team2Score": 21,
+      "winner": "Team 2",
+      "captain1": "Paul H",
+      "captain2": "Alex P",
+      "captain1PickedFirst": false,
+      "captain2PickedFirst": false,
+      "team1Players": [
+        "Paul H",
+        "Matt F",
+        "Andy M",
+        "Bobbins",
+        "Tony W"
+      ],
+      "team2Players": [
+        "Alex P",
+        "Jon R",
+        "Paul T",
+        "Finley",
+        "Clark"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "team1": "Whites",
+      "team2": "Colours",
+      "team1Score": 19,
+      "team2Score": 17,
+      "winner": "Team 1",
+      "captain1": "Bobbins",
+      "captain2": "Matt F",
+      "captain1PickedFirst": false,
+      "captain2PickedFirst": false,
+      "team1Players": [
+        "Bobbins",
+        "Pete S",
+        "Sam O",
+        "Paul H",
+        "Paul T"
+      ],
+      "team2Players": [
+        "Matt F",
+        "Andy M",
+        "Finley",
+        "Mike F",
         "Tony W"
       ]
     }
