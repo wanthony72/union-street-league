@@ -1,6 +1,6 @@
 {
-  "source": "Union Street 1830 (Results).xlsx",
-  "updated": "2026-10-06",
+  "source": "Union Street 1830 (Results) - Form responses 1.csv",
+  "updated": "2026-11-03",
   "matches": [
     {
       "date": "2026-01-13",
@@ -937,6 +937,110 @@
         "Finley",
         "Mike F",
         "Tony W"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "team1": "Whites",
+      "team2": "Colours",
+      "team1Score": 11,
+      "team2Score": 22,
+      "winner": "Team 2",
+      "captain1": "Tony W",
+      "captain2": "Paul H",
+      "captain1PickedFirst": false,
+      "captain2PickedFirst": true,
+      "team1Players": [
+        "Andy M",
+        "Finley",
+        "Matt F",
+        "Mike F",
+        "Tony W"
+      ],
+      "team2Players": [
+        "Alex P",
+        "Bobbins",
+        "Franco",
+        "Paul H",
+        "Paul T"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "team1": "Whites",
+      "team2": "Colours",
+      "team1Score": 3,
+      "team2Score": 10,
+      "winner": "Team 2",
+      "captain1": "Clark",
+      "captain2": "Andy M",
+      "captain1PickedFirst": true,
+      "captain2PickedFirst": false,
+      "team1Players": [
+        "Clark",
+        "Finley",
+        "Jon R",
+        "Paul H",
+        "Tony W"
+      ],
+      "team2Players": [
+        "Andy M",
+        "Bobbins",
+        "Matt F",
+        "Paul D",
+        "Paul T"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "team1": "Whites",
+      "team2": "Colours",
+      "team1Score": 15,
+      "team2Score": 15,
+      "winner": "Draw",
+      "captain1": "Alex P",
+      "captain2": "Bobbins",
+      "captain1PickedFirst": false,
+      "captain2PickedFirst": true,
+      "team1Players": [
+        "Alex P",
+        "Clark",
+        "Paul H",
+        "Paul T",
+        "Tony W"
+      ],
+      "team2Players": [
+        "Andy M",
+        "Bobbins",
+        "Finley",
+        "Mike F",
+        "Pete S"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "team1": "Whites",
+      "team2": "Colours",
+      "team1Score": 15,
+      "team2Score": 12,
+      "winner": "Team 1",
+      "captain1": "Paul H",
+      "captain2": "Pete S",
+      "captain1PickedFirst": true,
+      "captain2PickedFirst": false,
+      "team1Players": [
+        "Alex P",
+        "Finley",
+        "Matt F",
+        "Paul H",
+        "Tony W"
+      ],
+      "team2Players": [
+        "Pete S",
+        "Bobbins",
+        "Clark",
+        "Andy M",
+        "Mike F"
       ]
     }
   ]
